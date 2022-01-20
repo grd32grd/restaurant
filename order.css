@@ -1,0 +1,63 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.total{
+    text-decoration: underline;
+}
+.label{
+    text-align: center;
+}
+.sublabel{
+    text-align: center;
+}
+
+
+#info {
+    text-align: center;
+}
+#rList {
+    font-family: 'Courier New', Courier, monospace;
+}
+#n{
+    text-transform: uppercase;
+}
+
+#menuCat{
+    float: left;
+    width: 15%;
+}
+#menuCatul{
+    text-align: center;
+}
+#menuItems{
+    float: left;
+    width: 40%;
+}
+#menuOrder{
+    float: left;
+    width: 45%;
+}
+
+#link{
+    color: black;
+}
+#total{
+    text-decoration: underline;
+}
+#minwarn{
+    text-transform: uppercase;
+}
+

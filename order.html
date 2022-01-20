@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset=utf-8>
+        <title>Restaurant</title>
+        <link rel='stylesheet' href="order.css">
+    </head>
+    <body>
+        <form id = 're'>
+            <select id="rList" form='re'></select>
+        </form>
+        <div id='info'>
+            <h1 id ='n'></h1>
+            <h2 id ='m'></h2>
+            <h2 id ='d'></h2>
+        </div>
+        <hr>
+            <div class="cat" id='menuCat'>
+                <h2 class='label'>Categories:</h2>
+                <hr>
+                <ul id='menuCatul'></ul>
+            </div>
+            <div class="cat" id='menuItems'>
+                <h2 class='label'>Menu:</h2>
+                <hr>
+                <ul id='menuItemsul'></ul>
+            </div>
+            <div class="cat" id='menuOrder'>
+                <h2 class='label'>Order:</h2>
+                <hr>
+                <h4 id='subtotal' class='sublabel'>Subtotal ($) Amount:</h4>
+                <h4 id='tax' class='sublabel'>Tax: $</h4>
+                <h4 id='delivery' class='sublabel'>Delivery Charge: $</h4>
+                <h3 id='total' class='sublabel'>Total ($) Amount:</h3>
+                <h5 id='minwarn' class='sublabel'></h5>
+                <hr>
+                <ul id='menuOrderul'></ul>
+                <hr>
+                <button id='clear'>Clear</button>
+                <button id='submit'>Submit</button>
+            </div>
+        <script src="client.js"></script>
+    </body>
